@@ -29,7 +29,7 @@
                 <th>Ratting</th>
                 <th>Ulasan</th>
                 <?php
-                if($_SESSION['data']['Role'] == 'admin' || $_SESSION['data']['Role'] == 'petugas'){ ?>
+                if ($_SESSION['data']['Role'] == 'admin' || $_SESSION['data']['Role'] == 'petugas'){ ?>
                 <th>Aksi</th>
                 <?php } ?>
             </tr>
